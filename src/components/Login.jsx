@@ -35,7 +35,6 @@ function Login() {
       };
       axios(options)
         .then((response) => {
-          console.log(response, "responsePAPAPAP");
           dispatch({
             type: "LOGIN",
             payload: response.data,

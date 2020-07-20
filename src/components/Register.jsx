@@ -68,7 +68,6 @@ const Register = (props) => {
         });
       })
       .then(() => {
-        console.log("va a hacer redirect");
         history.push("/");
       });
   };
